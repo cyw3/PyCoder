@@ -1,4 +1,5 @@
-﻿#皮尔逊相关度评价，使用皮尔逊相关系数
+﻿#皮尔逊相关度评价
+#使用皮尔逊相关系数
 #判断两组数据与某一直线拟合程度的一种度量。当数据不是太规范是，会倾向于更好的结果
 #该直线，是最佳拟合线。原则是尽可能的靠近图上的所有坐标点
 
@@ -46,9 +47,9 @@ def sim_pearson(prefs,p1,p2):
     return r
 
 #test
-import recommendations
+#import recommendations
 #reload(recommendations)
-print sim_pearson(recommendations.critics,'Lisa Rose','Gene Seymour')
+#print sim_pearson(recommendations.critics,'Lisa Rose','Gene Seymour')
 
     
     

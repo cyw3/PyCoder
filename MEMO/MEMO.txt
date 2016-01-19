@@ -9,3 +9,6 @@ Python会在以下路径中搜索它想要寻找的模块：
 2. 标准库的安装路径
 3. 操作系统环境变量PYTHONPATH所包含的路径
 
+更多的由于比较的度量算法
+https://en.wikipedia.org/wiki/Metric_%28mathematics%29#Examples
+

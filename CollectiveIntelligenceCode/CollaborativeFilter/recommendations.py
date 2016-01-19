@@ -10,7 +10,7 @@
 
 #from recommendations import critics
 
-print critics['Lisa Rose']['Lady in the Water']
+#print critics['Lisa Rose']['Lady in the Water']
 
 #####################################################]
 
@@ -42,5 +42,5 @@ def sim_distance(prefs, person1, person2):
 #测试
 #reload(recommendations)
 #recommendations.
-print sim_distance(critics,'Lisa Rose','Gene Seymour')
+#print sim_distance(critics,'Lisa Rose','Gene Seymour')
     
