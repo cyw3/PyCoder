@@ -1,0 +1,11 @@
+import
+1、在同一文件夹
+import toveinvoked 或 from tobeinvoked import *
+2、在不同文件夹，需在文件夹新建一个__init__.py，使之为一个
+import folder.toveinvoked 或 from folder.tobeinvoked import *
+
+Python会在以下路径中搜索它想要寻找的模块：
+1. 程序所在的文件夹
+2. 标准库的安装路径
+3. 操作系统环境变量PYTHONPATH所包含的路径
+
