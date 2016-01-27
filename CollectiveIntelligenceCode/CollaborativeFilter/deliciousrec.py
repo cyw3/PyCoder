@@ -21,7 +21,7 @@ def initializeUserDict(tag,count=5):
             user=p2['user']
             user_dict[user]={}
     return user_dict
-
+、
 
 """
 填充用户评价值
